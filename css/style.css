@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 300 14px/1.85 "Lato", sans-serif;
+  color: #393939;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 942px;
+  margin: 0 auto;
+}
+
+.ba-we-do {
+  border: 2px solid #393939;
+  margin-top: 117px;
+  position: relative;
+  padding: 124px 173px 0 180px;
+}
+
+.ba-we-do__header {
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  top: -34px;
+  left: 26.67%;
+  position: absolute;
+  padding: 0 70px;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.ba-we-do__item {
+  margin-bottom: 103.5px;
+}
+
+.ba-icon-svg {
+  display: block;
+  margin: 0 auto 28px;
+}
+
+.ba-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ba-content {
+  text-align: center;
+}

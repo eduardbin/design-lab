@@ -23,7 +23,7 @@ body {
 
 .ba-we-do {
   border: 2px solid #393939;
-  margin-top: 117px;
+  margin: 117px 0 115px;
   position: relative;
   padding: 124px 173px 0 180px;
 }
@@ -61,4 +61,8 @@ body {
 
 .ba-content {
   text-align: center;
+}
+
+.ba-sprite {
+  display: none;
 }
